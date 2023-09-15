@@ -3,6 +3,8 @@
     margin: 0%;
 }
 
+
+
 @font-face {
     font-family: CustomFont;
     src: url(AldotheApache.ttf);
@@ -14,28 +16,34 @@ header{
         z-index: 999; 
 }
 
+
 .logo {
     font-family: CustomFont;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 1.5em;
     text-align: center;
+    padding: 0.3em;
 }
 .box1 {
 background-color: #2E6063;
-padding: 2px;
+padding: 0.1em;
 }
 
 .box2 {
     background-color: white ;
-    padding: 2px;
+    padding: 0.1em;
 }
 
 .box3 {
     background-color: #73AF89;
-    padding: 10px;
+    padding: 0.5em;
 }
 
 .box4 {
     background-color: #ABA744;
-    padding: 2px;
+    padding: 0.1em;
+}
+
+p{
+    font-size: large;
 }
