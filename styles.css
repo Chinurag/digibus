@@ -3,6 +3,13 @@
     margin: 0%;
 }
 
+body {
+    background-image: url('assets/background.png');
+    background-size: cover; /* This makes the image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
+}
+
 
 
 @font-face {
@@ -68,3 +75,41 @@ fooder{
     background-color: #2E6063;
     padding: 1em;
     }
+
+    .tpbtn {
+            font-family: CustomFontSideBar;
+            background-color: #2E6063;
+            border: 0.3em solid #73AF89;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, border-color 0.3s;
+          }
+          
+          .tpbtn:hover {
+            background-color: #73AF89;
+            border-color: #2e606300;
+          
+
+    }
+
+    .tpbtn2 {
+        font-family: CustomFontSideBar;
+        background-color: #2E6063;
+        border: 0.4em solid #73AF89;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 0.2em;
+        cursor: pointer;
+        font-size: 10px;
+        transition: background-color 0.3s, border-color 0.3s;
+      }
+      
+      .tpbtn2:hover {
+        background-color: #af7373;
+        border-color: #2e606300;
+      
+
+}
