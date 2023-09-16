@@ -1,0 +1,97 @@
+           .sidebar {
+            width: 0;
+            height: 25em;
+            margin-top: 4em;
+            background-color: #73AF89;
+            color: #fff;
+            overflow-x: hidden;
+            transition: width 0.3s;
+            padding-top: 0em;
+            position: fixed;
+            z-index: 10;
+        }
+
+        .sidebar-content {
+            padding: 1em;
+        }
+
+        
+       .sidebar-content a {
+            color: #ffffff;
+            font-size: 0.9em;
+            align-content: center;
+            font-family: CustomFontSideBar;
+            text-decoration: none;
+            display: block;
+            padding: 0.5em;
+            transition: background-color 1s;
+            z-index: 100;
+        }
+
+
+        #toggle-sidebar {
+            background-color: #33333300;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 2.5em;
+            margin-left: 2em;
+            padding: 10px 20px;
+            z-index: 50;
+            position: fixed;
+        }
+
+
+        #toggle-sidebar:hover {
+            background-color: #33333300;
+            rotate: 90deg;
+            transition: 0.3s ease-in-out;
+            filter: invert();
+            filter: hue-rotate(220deg);
+
+        }
+
+      .sidebar-content a:hover {
+            background-color: #2E6063;
+        }
+
+
+
+
+
+
+        .circle{
+            background-color: #ffffff;
+            padding: 1.5em;
+            border-radius: 3em;
+
+
+        }
+        .circle2{
+            background-color: #444444;
+            padding: 0.5em;
+            border-radius: 3em;
+            margin-top: -1em;
+            margin-left: -1em;
+        }
+        .circle3{
+            background-color: #73AF89;
+            padding: 0.5em;
+            border-radius: 9em;
+        }
+        .circlelogo :hover{
+            filter: brightness(3em);
+        }
+        .symbol {
+            background-color: transparent;
+            text-align: center;
+            font-size: 2em;
+            color: #444444;
+            margin-top: -0.55em;
+            margin-left: -0.29em;
+          }
+          .symbol,
+          .circle2 {
+            transition: transform 0.3s ease-in-out;
+            position: absolute;
+          }
