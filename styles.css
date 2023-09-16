@@ -3,14 +3,23 @@
     margin: 0%;
 }
 
+
 body {
-    background-image: url('assets/background.png');
-    background-size: cover; /* This makes the image cover the entire viewport */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed;
+  background-image: url('assets/background.png');
+  background-size: cover; /* This makes the image cover the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;
+  animation: backgroundScroll 20s linear infinite; /* Adjust the duration as needed */
 }
 
-
+@keyframes backgroundScroll {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
 
 @font-face {
     font-family: CustomFontTitle;
