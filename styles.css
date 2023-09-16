@@ -50,3 +50,41 @@ padding: 0.1em;
 p{
     font-size: large;
 }
+
+.startbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .startbtn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+fooder{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 11; 
+}
+    .box5 {
+    background-color: #73AF89;
+    padding: 0.3em;
+     }
+
+    .box6 {
+    background-color: #2E6063;
+    padding: 1em;
+    }
