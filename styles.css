@@ -3,23 +3,14 @@
     margin: 0%;
 }
 
-
 body {
-  background-image: url('assets/background.png');
-  background-size: cover; /* This makes the image cover the entire viewport */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed;
-  animation: backgroundScroll 20s linear infinite; /* Adjust the duration as needed */
+    background-image: url('assets/background.png');
+    background-size: cover; /* This makes the image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
 }
 
-@keyframes backgroundScroll {
-  0% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
+
 
 @font-face {
     font-family: CustomFontTitle;
@@ -83,7 +74,26 @@ fooder{
     .box6 {
     background-color: #2E6063;
     padding: 1em;
+    align-content: center;
+    align-items: center;
     }
+    .fooderbtn {
+        width: 1em;
+    }
+
+    @media (max-width: 600px) {
+    .box6 {
+        background-color: #2E6063;
+        padding: 1em;
+        }
+  
+    }
+
+
+
+
+
+
 
     .tpbtn {
             font-family: CustomFontSideBar;
